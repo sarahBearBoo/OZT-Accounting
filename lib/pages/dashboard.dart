@@ -1,6 +1,6 @@
 import 'package:accounting/models/data/moduleTilesData.dart';
 import 'package:accounting/pages/featureUnavailablePage/featureUnavailable.dart';
-import 'file:///C:/Users/OZT-Office/Documents/Flutter%20Projects/accounting/lib/utilities/appBar/appBar.dart';
+import 'package:accounting/utilities/appBar/appBar.dart';
 import 'package:accounting/utilities/charts/acquisitionChart.dart';
 import 'package:accounting/utilities/colors.dart';
 import 'package:accounting/utilities/navigationBar/navigationBar.dart';

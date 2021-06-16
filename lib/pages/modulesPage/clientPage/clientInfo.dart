@@ -1,5 +1,5 @@
 import 'package:accounting/pages/modulesPage/clientPage/clientInfoCategory.dart';
-import 'file:///C:/Users/OZT-Office/Documents/Flutter%20Projects/accounting/lib/utilities/appBar/appBar.dart';
+import 'package:accounting/utilities/appBar/appBar.dart';
 import 'package:accounting/utilities/colors.dart';
 import 'package:accounting/utilities/navigationBar/navigationBar.dart';
 import 'package:flutter/material.dart';

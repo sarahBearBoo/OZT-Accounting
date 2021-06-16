@@ -1,5 +1,5 @@
 import 'package:accounting/pages/featureUnavailablePage/featureUnavailable.dart';
-import 'file:///C:/Users/OZT-Office/Documents/Flutter%20Projects/accounting/lib/utilities/appBar/appBar.dart';
+import 'package:accounting/utilities/appBar/appBar.dart';
 import 'package:accounting/pages/morePage/changePassword.dart';
 import 'package:accounting/pages/morePage/profile.dart';
 import 'package:accounting/utilities/colors.dart';

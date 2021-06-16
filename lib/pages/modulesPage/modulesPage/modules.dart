@@ -1,7 +1,7 @@
 import 'package:accounting/models/data/moduleTilesData.dart';
 import 'package:accounting/pages/featureUnavailablePage/featureUnavailable.dart';
 import 'package:accounting/pages/modulesPage/quotationPage/quotation.dart';
-import 'file:///C:/Users/OZT-Office/Documents/Flutter%20Projects/accounting/lib/utilities/appBar/appBar.dart';
+import 'package:accounting/utilities/appBar/appBar.dart';
 import 'package:accounting/pages/modulesPage/cashBookPage/cashBook.dart';
 import 'package:accounting/pages/modulesPage/expensesPage/expenses.dart';
 import 'package:accounting/pages/modulesPage/ledgerBookPage/ledgerBook.dart';

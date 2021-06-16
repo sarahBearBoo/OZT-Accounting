@@ -1,5 +1,5 @@
 import 'package:accounting/models/utilities/appStepper.dart';
-import 'file:///C:/Users/OZT-Office/Documents/Flutter%20Projects/accounting/lib/utilities/appBar/appBar.dart';
+import 'package:accounting/utilities/appBar/appBar.dart';
 import 'package:accounting/utilities/appStepper/appStepper.dart';
 import 'package:accounting/utilities/colors.dart';
 import 'package:accounting/utilities/navigationBar/navigationBar.dart';
