@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:accounting/justInCaseIMightNeedItInTheFuture/TextFieldTest.dart';
 import 'package:accounting/pages/dashboard.dart';
 import 'package:accounting/pages/featureUnavailablePage/featureUnavailable.dart';
 import 'package:accounting/pages/login.dart';
@@ -82,6 +83,7 @@ class AccountingApp extends StatelessWidget {
         '/modules' : (context) => Modules(),
         '/inbox' : (context) => FeatureUnavailable(name: "Inbox", navIndex: 2,),
         '/more': (context) => More(),
+        '/textfieldtest': (context) => MyCustomForm(),
       },
     );
   }
