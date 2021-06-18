@@ -65,7 +65,6 @@ class _DashboardState extends State<Dashboard> {
     // TODO: implement initState
     super.initState();
     module = getModuleTiles();
-    //isShowingMainData = true;
   }
 
 

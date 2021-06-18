@@ -1,3 +1,4 @@
+import 'package:accounting/pages/modulesPage/expensesPage/expensesNew.dart';
 import 'package:accounting/pages/modulesPage/expensesPage/createNewExpenses.dart';
 import 'package:accounting/utilities/appBar/appBar.dart';
 import 'package:accounting/utilities/colors.dart';
@@ -39,7 +40,7 @@ class _ExpensesState extends State<Expenses> {
                 height: 50.0,
                 child: TextButton(
                   onPressed: (){
-                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => CreateNewExpenses(current: 1)));
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => ExpensesNew()));
                   },
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(AppColors().lightBlue),

@@ -2,8 +2,7 @@ import 'package:accounting/utilities/appBar/appBar.dart';
 import 'package:accounting/utilities/colors.dart';
 import 'package:accounting/utilities/navigationBar/navigationBar.dart';
 import 'package:flutter/material.dart';
-
-import 'createNewIncome.dart';
+import 'incomeNew.dart';
 
 class Income extends StatefulWidget {
   @override
@@ -41,7 +40,7 @@ class _IncomeState extends State<Income> {
                 height: 50.0,
                 child: TextButton(
                   onPressed: (){
-                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => CreateNewIncome(current: 1)));
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => IncomeNew()));
                   },
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all<Color>(AppColors().lightBlue),

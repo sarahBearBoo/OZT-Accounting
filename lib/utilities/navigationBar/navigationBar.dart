@@ -97,7 +97,7 @@ class NavigationBar extends StatelessWidget {
             flex: 1,
             child: GestureDetector(
               onTap: () {
-                Navigator.of(context).pushNamedAndRemoveUntil('/textfieldtest', (route) => false);
+                Navigator.of(context).pushNamedAndRemoveUntil('/inbox', (route) => false);
               },
               child: Column(
                   children: [
